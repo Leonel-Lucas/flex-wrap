@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(241, 113, 9);
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.tarjeta1 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(216, 245, 89),rgb(120, 248, 220));
+    border: blueviolet 25px ridge;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta2 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(248, 129, 93),rgb(232, 118, 255));
+    border: red 25px double;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta3 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(143, 107, 241),rgb(243, 217, 102));
+    border: green dashed 25px;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta4 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(113, 255, 155),rgb(250, 136, 240));
+    border: deepskyblue dotted 25px;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta5 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(118, 174, 247),rgba(155, 199, 53, 0.959));
+    border-top: firebrick 25px dashed;
+    border-right: fuchsia 25px double;
+    border-bottom: rgb(78, 47, 255) 25px dotted;
+    border-left: gold 25px solid;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tarjeta6 {
+    width: 275px;
+    height: 620px;
+    margin: 50px;
+    background: linear-gradient(to top, rgb(253, 130, 227),rgba(247, 93, 93, 0.959));
+    border: blue groove 25px;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Text h3 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Text h4 {
+    color: black;
+    font-size: 23px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.Text p {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+body:hover {
+    background-color: turquoise;
+}
+
+.tarjeta1:hover {
+    background: linear-gradient(to top, rgb(231, 112, 196),rgb(131, 248, 120));
+}
+
+.tarjeta2:hover {
+    background: linear-gradient(to top, rgb(236, 247, 89),rgb(111, 113, 228));
+}
+
+.tarjeta3:hover {
+    background: linear-gradient(to top, rgb(230, 115, 115),rgb(199, 250, 104));
+}
+
+.tarjeta4:hover {
+    background: linear-gradient(to top, rgb(87, 223, 148),rgb(253, 219, 107));
+}
+
+.tarjeta5:hover {
+    background: linear-gradient(to top, rgb(235, 115, 225),rgb(124, 215, 243));
+}
+
+.tarjeta6:hover {
+    background: linear-gradient(to top, rgb(197, 238, 122),rgb(235, 135, 77));
+}
